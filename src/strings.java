@@ -22,5 +22,23 @@ public class strings {
 
                 }
         System.out.println(stFlomLoop);
+
+        //методы сравнения
+        str.equals(str2);
+        str.compareTo(str2);
+        str.compareToIgnoreCase(str2);  // сравнение строк с игнорированием регистра:
+        // 0 - если аргумент лексически равен строке str
+        // < 0 если str2 > str
+        // > 0 если str < str2
+
+        str.length(); // указывает длину строки
+
+        str2.startsWith("qda"); //проверяет, начинается ли строка с этого
+        str.endsWith("fs"); //проверяет, заканчивается ли строка этим
+
+
+
+
+
     }
 }

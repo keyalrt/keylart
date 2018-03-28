@@ -5,7 +5,7 @@ public class HomeWork_26_03 {
 
     public static void main(String[] args) {
 
-        //задача 1 массивы
+        //задача 1 массивы пававап
         int[] arr1 = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
         for (int i = 0; i < arr1.length; i++) {
             System.out.print(" " + arr1[i]);
